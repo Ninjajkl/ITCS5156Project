@@ -9,7 +9,6 @@ def get_inputs_and_targets(corpus_txt_fpath, seq_length):
     
     # a list of strings, one for each level
     level_strs = data.strip().split(')')[:-1]  # last item is an empty string
-    
     # ==================================================
     
     chars = []
@@ -32,7 +31,6 @@ def get_inputs_and_targets(corpus_txt_fpath, seq_length):
     level_arrays = []
     for level_str in level_strs:
         level_arrays.append(np.array([char_to_ix[char] for char in list(level_str)]))
-    
     # ==================================================
     
     def get_inputs_and_targets_from_level_array(level_array):

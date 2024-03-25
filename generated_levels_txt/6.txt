@@ -1,0 +1,16 @@
+---x]-----?----]-o------xo>->[[----S-][>-XQ]-<-B>---B?[?----x--[-------x]-S----?---x--b-E-Q---B-->X----B-x----<-x---------]--<--?--?-------Qb--->--bQ<-?--x-b----S---x----X-?
+---Qx-----X----S-Q------<o<->>>---->-bb>-bo?-SbQ]--->BQ]----S--o--------X------<---x--o-E-[------S<--b-]-E----Q-S--]------[--b-QX--B-----b-[o---X--oBb-S--?>>---->---Q----b-Q
+---EQ-----B---b]-x------<EQ-Q<E----<-BxS-<>b-x]x?---]x---------x-------?x-Q----<-X-E--x-E-E------E<--X-[-?----X-[--BX-----b--b[]]--?-----Q-Xo--->--<S--?---XQ----E----B---X->
+---o]-----<---<B-S------<Bb-<?>----o-EE[-ExX-?-[b---b>E[---->--Q-------<>-E----[-o-b--<-S-]---E--[o--?-?-S----]-[>-oQ-----o--<<o------>----?Q---[--BX>-?Q->-E---Q-S--XB---Q-E
+---x>-----?X--]>-<------E]S-oE-----x-bSo-S-B-x]?x---?B?b---]]x-]--------]-<----b-B-?-]b-b-x---E--][-->-b-Q----X-QX--]----->--?BQ?--bX-?--XEBb--->--o>?-XX-B[[----[>--b]---?-b
+---B]--?--<---SX--------?>--xob----SX]?>-]?]?]QB?----S[]Q--b-<-<-----X-?B------b-Q-x-??-o-Q---]--<]--]-[-o---->->o-x------B--E>]X--]]-S---bXE---?S-boQ-BX-B]<--SBoE--S]---<-[
+---bX--S--oS--[x-x------>E[--BQ----?xQ>XExE<-><E----->boS--x<[->-----<bEx-<----E-b-x-xB--XE---Q--XE--?-x-x----X-E?->>-----S--S>Eo--Q]-o--B<<E--<o<-B?B-<--<>E--bXXx--<b---?-o
+---][--b--So--oS-[>-----SE--oQ[----x<SoQ<-[QE[]-E--->>S]Q--S<<-Qb----?[X--X[b--]-?-B-<E--<o---x--Bo--<---]----X-o]-Bo-------Bx<-]--<X-b--E[x?--]BE->]>-BX--?oE]Qboo--X<---?-]
+---<Q--b--ES--Sb-[>-----obE-bXx----X-BE?SXb?B-Q-oS---[EB[--b?--]X----]S?<-<SQ-ox-[-]-[B-?oS------S[--X-?-Q----S->-<X?-----Q--SS]---<Q-Q--x>S]--Q<?-B[SS?]-oE]-bBxb]--BE---<-[
+---xb-->o-B>--XQ-XB-o---xSb-b-]----Ebx?]oBo?B?x-X-[-EBQo<--Q-S-Qb----]oXb-So<?bo-[-X-]<->?o---X<-BE-->-b-o--<-E-]S??>Q----EobB-?>-SB>-E-->Q-b-oXSo-Q-]>E]-><XSoboxB-??x---Q-E
+---oB-->X-Q---<X-B]-b-->QEX-[>b---]ooBX--bQ]]X?>QxS-o?BS<--SS]->Q-b--<Q-SBEoB>E]-<>x-EE-E?o---E]-X[--o-b-b[-o-]-xSESS>----ob-X]-X-bQ--S--[x][-]]QQ-XXE[]xxX[>bbb--[-[]<---X-Q
+---xS--bS-<]--XX-xQQ[?-XoB--X[<b--?o[So[QxQ>QXbE]<o-o]B>X--<>b--x-E--Q?<-oQoS?x--?[>--E[>QXX--?Q-Q[-X--B-SS-S->->]Eb-B-<--bXxb<>o-SQ<-x--E-Eb-bo]B-Q]]xbo?>[]Xb-XX--S[[---]->
+---Q>X->]-[o--<xQBx[ob->S>b-X]x[--EbEB<>--o-SB[[<bx-bSQQ]--ox?-?S-Q-bXE]>XBS-S?>--]]X><BQQX?-->--<<-<E-]-X]-E-S-o-Qo[B-E<-o]-x?ooQS<]-x--bE]]-><o---oox?<>>BS<B?B>S-b[E---]SB
+--E?o?-SX-X[--<QX]B<>--B->-SEB?[--?<bS]EX[?Sb]x?ExX-<E]?S]-o[<-oS-Q-<]?ob]Q<<QX[->QXb?XxX]SB--x]-Eo-o]-Q--S-SQ--b?QoB[?Sx-bE]b?xX>oQ<[xB-[E-b->bo--bBXX[?-boSE>Xo<[-bQ----[SQ
+-->[bQ-Q[-B]-EE><?bQQQ]S]<X[?xBX-BE][oE]?X[QXXxx[-xQo]>?[S-]S]-x[-[-E>BSEXS[bx[--b[S->So<E-x--XbQQ]-So-b-S]-?]X-Bxx<B[?XB->o>S<<QEoE]S]]-oXxE-boEo-[>QXQxQ-BE>??QS>-[[E---SQQ
+--bBQ-o?X<bSBB]-<?b>??QQBx->[-E-Eo[SoBoSS?SEQXx<E?x]EXX[][SQQX-Xo]Bb]xo>BBBEQE<--S?x]b<<o>QQ?-S][E->??Sbo<x-QSx-Sb]S<B-x>QSEXQo>-<XB>--<-[QEX-o?S--<Q<oXb?bo>?<EbES-bEx[--]xS
