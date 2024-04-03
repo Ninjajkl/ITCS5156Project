@@ -42,7 +42,7 @@ def get_inputs_and_targets(corpus_txt_fpath, seq_length):
             targets.append(level_array[i+1:i+seq_length+1])
 
         inputs, targets = map(np.array, [inputs, targets])
-        inputs = np.eye(vocab_size)[inputs]
+        inputs = np.eye(vocab_size, dtype = 'float32')[inputs]
 
         return inputs, targets
     
