@@ -10,10 +10,20 @@ from tqdm.notebook import tqdm
 #creates the inputs and targets from these sequence (where the target sequence would be the sequence following the input sequence),
 #One-hot encodes the inputs,
 #then outputs the char-to-int and int-to-char mappings, the vocab_size, the inputs, and the targets
-def get_inputs_and_targets(corpus_txt_fpath, seq_length):
-    
+def get_inputs_and_targets(corpus_txt_fpath, seq_length, snaking = False):
+
     data = open(corpus_txt_fpath, 'r').read()
-    
+    #If snaking, change the input to snake around
+    if snaking:
+        level_array = data.split(")")[:-1]
+        for i in range(len(level_array)):
+            data_array = level_array[i].split("\n")[1:-1]
+            #Reverse every other string
+            for j in range(0, len(data_array), 2):
+                data_array[j] = data_array[j][::-1]
+            #Join the array back into a single string with newline characters
+            level_array[i] = "\n".join(data_array)
+        data = "\n)\n".join(level_array)
     # ==================================================
     
     # a list of strings, one for each level
@@ -41,7 +51,6 @@ def get_inputs_and_targets(corpus_txt_fpath, seq_length):
     for level_str in level_strs:
         level_arrays.append(np.array([char_to_ix[char] for char in list(level_str)]))
     # ==================================================
-    
     def get_inputs_and_targets_from_level_array(level_array):
     
         inputs, targets = [], []
