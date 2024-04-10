@@ -1,6 +1,15 @@
+#Not Original
 import numpy as np
 from tqdm.notebook import tqdm
 
+#This function takes the .txt file with all of the mario levels,
+#splits the file into a separate string for each level,
+#finds the number of unique characters in all the levels (this creates the vocab used for one-hot encoding),
+#converts each character to its integer encoding,
+#finds every seq_length sequence in each level,
+#creates the inputs and targets from these sequence (where the target sequence would be the sequence following the input sequence),
+#One-hot encodes the inputs,
+#then outputs the char-to-int and int-to-char mappings, the vocab_size, the inputs, and the targets
 def get_inputs_and_targets(corpus_txt_fpath, seq_length):
     
     data = open(corpus_txt_fpath, 'r').read()
