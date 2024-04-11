@@ -1,4 +1,4 @@
-#Not Original
+#Mostly not-original, original sections 
 import numpy as np
 from tqdm.notebook import tqdm
 
@@ -10,20 +10,37 @@ from tqdm.notebook import tqdm
 #creates the inputs and targets from these sequence (where the target sequence would be the sequence following the input sequence),
 #One-hot encodes the inputs,
 #then outputs the char-to-int and int-to-char mappings, the vocab_size, the inputs, and the targets
-def get_inputs_and_targets(corpus_txt_fpath, seq_length, snaking = False):
+def get_inputs_and_targets(corpus_txt_fpath, seq_length, snaking = False, pathing = True, column_depth = False):
 
     data = open(corpus_txt_fpath, 'r').read()
-    #If snaking, change the input to snake around
-    if snaking:
+
+    #Original Section
+    #If using column depth markers or snaking, modify the input to include them
+    #I do this here instead of in 01_preprocess_data so that snaking and column_depth are among the hyperparameters
+    if column_depth or not pathing or snaking:
+        #Get every level's data
         level_array = data.split(")")[:-1]
         for i in range(len(level_array)):
+            #Split the level string into an array of strings, one per column
             data_array = level_array[i].split("\n")[1:-1]
-            #Reverse every other string
-            for j in range(0, len(data_array), 2):
-                data_array[j] = data_array[j][::-1]
-            #Join the array back into a single string with newline characters
+            #If using column_depth, add column characters every 5 columns
+            if column_depth:
+                for j in range(0, len(data_array), 5):
+                    if j + 4 < len(data_array):  # Ensure index doesn't go out of bounds
+                        data_array[j + 4] += ('d'*((j//5)+1))
+            #If not using path information, remove the paths
+            if not pathing:
+                data_array = [column.replace('x', '-') for column in data_array]
+            #If snaking the input, reverse every other column
+            if snaking:
+                for j in range(0, len(data_array), 2):
+                    data_array[j] = data_array[j][::-1]
+            #Join the columns back into a single string with newline characters (these mark the end of a column for the LSTM)
             level_array[i] = "\n".join(data_array)
+        #Add all of the level strings back together
         data = "\n)\n".join(level_array)
+        
+    #print(data)
     # ==================================================
     
     # a list of strings, one for each level
